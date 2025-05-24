@@ -1,0 +1,6 @@
+.CenteredText {
+  text-align: center;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 600px; /* keeps lines short, like a poem */
+}
