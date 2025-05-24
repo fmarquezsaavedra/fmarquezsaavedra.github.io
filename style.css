@@ -5,6 +5,13 @@
 
 .CenteredElement{
     max-width: 300px;
+    width: 100px;
     margin: 0 auto;
     padding: 20px;
+}
+
+@media (min-width: 700px) {
+  .CenteredElement {
+    width: 300px;
+  }
 }
