@@ -1,9 +1,80 @@
 #Inicio{
-  background-color: #adcddb;
+  background-color: #adcddb; /* adcddb */
+  width: 100%;
+  color: #162b6f;
 }
+
+#Quienes{
+  background-color: white;
+  width: 100%;
+  color: #2f96d1;
+}
+
+/* Base styling for the split section */
+.split_section {
+  display: flex;
+  width: 100%;
+}
+
+/* Each half */
+.half {
+  flex: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background colors */
+.red {
+  background-color: #e0343d;
+}
+
+.blue {
+  background-color: #424fad;
+}
+
+/* Responsive stacking on smaller screens */
+@media (max-width: 768px) {
+  .split_section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+.link{
+  color: inherit;
+  display: block;
+  margin: 1em 0;
+}
+
+
+
+#fondo{
+  background-color: #162b6f;
+  width: 100%;
+  color: #d3f5f6;
+}
+
+
 .CenteredText {
   text-align: center;
   line-height: 1.6;
+}
+
+.footer {
+  background-color: #d3f5f6;
+  width: 100%;
+  padding: 10px 20px;
+  position: relative;
 }
 
 .CenteredElement{
@@ -80,7 +151,7 @@ html, body {
 /* Nav bar */
 
 .navbar {
-  background-color: white;
+  background-color: #d3f5f6;
   color: black;
   padding: 10px 20px;
   position: relative;
