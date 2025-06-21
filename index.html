@@ -3,13 +3,42 @@
     <title>Title!</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="#services">Services</a>
+                </div>
 
+                <div class="nav-logo">
+                    <img src="Imagenes/archivo/logoTEXTO.png" alt="Logo" />
+                </div>
 
-    <div class="header"></div>
+                <div class="nav-right nav-links">
+                    <a href="otros/cursos.html">Cursos</a>
+                    <a href="#contact">Contact</a>
+                </div>
 
-    <div class="CenteredElement">
+                <div class="hamburger" id="hamburger">
+                    &#9776;
+                </div>
+            </div>
+
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html">Inicio</a>
+                <a href="#services">Services</a>
+                <a href="otros/cursos.html">Cursos</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <script src="js/script.js"></script>
+    </header>
+
+    <div class="CenteredElement" id="Inicio">
         <h2 class="CenteredText"> Fundación ABCDUC</h2>
         <p class="CenteredText">Es una entidad de capacitación registrada en el registro ATE del Ministerio de Educación, número de registro 10649, desde el año 2014 </p>
     </div>
@@ -44,10 +73,13 @@
 
 
 
-    <!-- Feet of page -->
-    <div class="footer CenteredElement">
-        <p class="CenteredText">ABCDUC.CL</p>
-        <p class="CenteredText">abcduc7@gmail.com</p>
-        <p class="CenteredText">©2025 ABCDUC</p>
-    </div>
+    
+    <footer>
+        <!-- Feet of page -->
+        <div class="footer CenteredElement">
+           <p class="CenteredText">ABCDUC.CL</p>
+           <p class="CenteredText">abcduc7@gmail.com</p>
+           <p class="CenteredText">©2025 ABCDUC</p>
+        </div>
+    </footer>
 </body>
