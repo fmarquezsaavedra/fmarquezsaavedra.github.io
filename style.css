@@ -68,25 +68,28 @@
 .CenteredText {
   text-align: center;
   line-height: 1.6;
+  width: 100%;
+  margin: 0;
 }
 
 .footer {
   background-color: #d3f5f6;
   width: 100%;
+  height: auto;
   padding: 10px 20px;
   position: relative;
 }
 
-.CenteredElement{
-    max-width: 300px;
-    width: 100px;
-    margin: 0 auto;
-    padding: 20px;
+.CenteredElement {
+  width: 90%; /* Use a percentage to be responsive */
+  max-width: 500px; /* Still keep a max-width for large screens */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 @media (min-width: 700px) {
   .CenteredElement {
-    width: 500px;
+    width: 80%; /* Optional tweak */
   }
 }
 
